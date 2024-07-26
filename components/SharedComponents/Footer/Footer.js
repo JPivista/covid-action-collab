@@ -67,24 +67,24 @@ const Footer = () => {
                             covidactioncollab@catalysts.org
                         </p>
                         <div className='d-flex flex-row gap-2'>
-                            <Link href="https://www.linkedin.com/showcase/covid-action-collaborative/" target='_blank'>
+                            <Link className='text-dark' href="https://www.linkedin.com/showcase/covid-action-collaborative/" target='_blank'>
                                 <i class="bi bi-linkedin"></i>
                             </Link>
-                            <Link href="https://twitter.com/CovActionCollab" target='_blank'>
+                            <Link className='text-dark' href="https://twitter.com/CovActionCollab" target='_blank'>
                                 <i class="bi bi-twitter-x"></i>
                             </Link>
                         </div>
                     </Col>
 
-                    <Col lg={5}>
-                        <Row className='d-flex flex-lg-row flex-column justify-content-center align-content-center'>
+                    <Col lg={5} XS={12} className='mt-lg-0 mt-4'>
+                        <Row className='d-flex  justify-content-center align-content-center'>
                             <Col>
                                 <Image src='/usaid.png' alt='' fluid />
                             </Col>
-                            <Col lg={3}>
+                            <Col lg={3} className='mt-4 mt-lg-0'>
                                 <Image src='/skoll.png' alt='' fluid />
                             </Col>
-                            <Col>
+                            <Col className='mt-4 mt-lg-0'>
                                 <Image src='/cms.png' alt='' fluid />
                             </Col>
                         </Row>
