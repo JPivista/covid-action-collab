@@ -29,14 +29,14 @@ const Footer = () => {
                         <Link href="/our-action" className='text-decoration-none text-black custom-footer-style'>
                             Our Action
                         </Link>
-                        <Link href="" className='text-decoration-none text-black custom-footer-style'>
+                        {/* <Link href="" className='text-decoration-none text-black custom-footer-style'>
                             Story in Numbers
-                        </Link>
+                        </Link> */}
                     </Col>
 
 
                     <Col className='d-flex flex-column gap-1'>
-                        <Link href="/knowledge-repository" className='text-decoration-none text-black mt-4 custom-footer-style'>
+                        <Link href="/knowledge-repository" className='text-decoration-none text-black mt-lg-4 mt-1 custom-footer-style'>
                             Knowledge Repository
                         </Link>
                         <Link href="/impact-stories" className='text-decoration-none text-black custom-footer-style'>
@@ -58,7 +58,7 @@ const Footer = () => {
 
 
                     <Col>
-                        <h6 className='fw-bold custom-footer-style'>
+                        <h6 className='fw-bold custom-footer-style mt-lg-0 mt-3'>
                             CONTACT US
                         </h6>
                         <p className='custom-footer-style'>
